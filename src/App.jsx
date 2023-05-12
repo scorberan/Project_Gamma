@@ -1,5 +1,9 @@
 import { Outlet } from "react-router-dom";
 
+const Header = () => {
+  return <div>Este es mi Header</div>;
+};
+
 function App() {
   return (
     <>
