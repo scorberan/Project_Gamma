@@ -7,7 +7,10 @@ const Header = () => {
 function App() {
   return (
     <>
-      <header>My header</header>
+      <header>
+        <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
+      </header>
       <Outlet />
       <footer className="read-the-docs">My footer</footer>
     </>
