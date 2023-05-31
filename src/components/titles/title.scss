@@ -1,7 +1,4 @@
 .title-gradient {
-  width: 268px;
-  height: 39px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -25,4 +22,9 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.landingpage-header {
+  color: var(--color-dark-purple);
+  font-size: 64px;
+  font-family: var(--font);
 }
