@@ -1,0 +1,25 @@
+.nav-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-bold {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.logo-thin {
+  font-family: var(--font);
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.nav-btn {
+  color: var(--color-dark-purple);
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 24px;
+}

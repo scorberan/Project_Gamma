@@ -1,0 +1,28 @@
+.section-about {
+  display: flex;
+  align-items: flex-start;
+}
+
+.section-img-about {
+  width: 50%;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.section-img-about img {
+  max-width: 532px;
+  max-height: 667px;
+  border-radius: 25px;
+}
+
+.about-title {
+  font-size: 36px;
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+.short-intro-about {
+  font-family: var(--font);
+}
