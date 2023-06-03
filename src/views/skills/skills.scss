@@ -38,13 +38,15 @@ button {
 }
 
 .hardskills-content {
+  font-family: var(--font);
+  font-size: 20px;
   margin-top: 20px;
-  width: 570px;
-  height: 616px;
+  width: 535px;
+  height: 698px;
   background: rgba(151, 71, 255, 0.45);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
-  padding-right: 25px;
+  padding: 16px;
 }
 
 .softskills-content {
@@ -54,6 +56,52 @@ button {
   background: rgba(168, 228, 160, 0.45);
   border-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hardskills-info {
+  margin: 20px 15px;
+  padding: 22px 35px;
+  font-weight: 700;
+
+  width: 430px;
+  height: 32px;
+
+  background: rgba(151, 71, 255, 0.45);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
+.hardskills-title {
+  padding-top: 10px;
+}
+
+.hardskills-info-small {
+  width: 192px;
+  height: 88px;
+  margin: 15px 12px;
+  background: rgba(151, 71, 255, 0.45);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.container {
+  margin: 25px 40px;
+}
+.softskills-info {
+  width: 218px;
+  height: 69px;
+  font-weight: 700;
+  background: rgba(168, 228, 160, 0.45);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  margin: 15px;
 }
 
 .education-content {
@@ -66,10 +114,14 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.ba-info {
+.bold {
+  font-weight: 700;
+}
+
+.edu-info {
   width: 517px;
   height: 93px;
-  margin-top: 25px;
+  margin-top: 38px;
   padding: 10px 5px;
   background: rgba(0, 127, 255, 0.45);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

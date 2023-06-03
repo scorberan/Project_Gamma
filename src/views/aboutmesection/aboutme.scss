@@ -1,12 +1,21 @@
 .section-about {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1500px;
+  width: 100%;
+  margin-top: 35px;
 }
 
 .section-img-about {
+  max-width: 500px;
+  text-align: center;
+  flex-grow: 1;
   width: 50%;
 }
-
 .about-content {
   width: 50%;
 }
@@ -18,6 +27,7 @@
 }
 
 .about-title {
+  margin: 5px;
   font-size: 36px;
   font-family: var(--font);
   font-weight: 600;
@@ -25,4 +35,7 @@
 
 .short-intro-about {
   font-family: var(--font);
+  width: 600px;
+  font-size: 20px;
+  line-height: 29px;
 }

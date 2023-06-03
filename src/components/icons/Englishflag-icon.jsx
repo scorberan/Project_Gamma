@@ -2,37 +2,40 @@ function EnglishflagIcon() {
   return (
     <>
       <svg
+        className="icon-flags"
         xmlns="http://www.w3.org/2000/svg"
-        width="58"
-        height="48"
+        width="48"
+        height="38"
         fill="none"
       >
         <g clip-path="url(#a)">
-          <rect width="58" height="48" fill="#41479B" rx="5" />
-          <path
-            fill="#fff"
-            d="m63.16-9.533 4.496 5.365-68.16 57.115L-5 47.582z"
-          />
-          <path fill="#fff" d="M-9-.348-4.87-6l71.807 52.456-4.13 5.653z" />
+          <rect width="48" height="38" fill="#41479B" rx="5" />
+          <path fill="#fff" d="M-7 41.857 48.24-4 52.212.788-3.026 46.644z" />
+          <path fill="#fff" d="M50.95 46.895-6 3.18-2.024-2l56.949 43.716z" />
           <path
             fill="#FE2020"
-            d="M-3 47.065 58.972-4l2.543 3.087L-.456 50.152z"
+            d="M51.257 45.198-6 1.886-3.817-1 53.44 42.312z"
           />
           <path
             fill="#FE2020"
-            d="M59.963 48.37-8.463-2.15l2.375-3.218 68.426 50.518z"
+            d="M51.257 45.198-6 1.886-3.817-1 53.44 42.312z"
           />
-          <path fill="#fff" d="M26 0h8v48h-8z" />
           <path
-            fill="#fff"
-            d="m59.452 19.583.004 8.721-60.07.029-.005-8.721z"
+            fill="#FE2020"
+            d="M-3 40.443 47.496-1l2.295 2.797L-.705 43.24z"
           />
-          <path fill="#FE2020" d="M-5 21h68v6H-5z" />
-          <path fill="#FE2020" d="m28.126 55.007-.126-68L32-13l.126 68z" />
+          <path
+            fill="#FE2020"
+            d="M-3 40.443 47.496-1l2.295 2.797L-.705 43.24z"
+          />
+          <path fill="#fff" d="M19 0h10v48H19z" />
+          <path fill="#fff" d="m52.524 19 .076 8.714-52.524.455L0 19.456z" />
+          <path fill="#FE2020" d="M21 0h6v48h-6z" />
+          <path fill="#FE2020" d="M48.417 20v6L-3 26.002v-6z" />
         </g>
         <defs>
           <clipPath id="a">
-            <rect width="58" height="48" fill="#fff" rx="5" />
+            <rect width="48" height="38" fill="#fff" rx="5" />
           </clipPath>
         </defs>
       </svg>

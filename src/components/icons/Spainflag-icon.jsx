@@ -1,19 +1,21 @@
+import "./icons.scss";
 function SpainflagIcon() {
   return (
     <>
       <svg
+        className="icon-spain"
         xmlns="http://www.w3.org/2000/svg"
-        width="58"
-        height="48"
+        width="48"
+        height="38"
         fill="none"
       >
         <g clip-path="url(#a)">
-          <rect width="58" height="48" fill="#F0EB69" rx="5" />
-          <path fill="#FF0909" d="M0 0h58v14.491H0zM0 33.509h58V48H0z" />
+          <rect width="48" height="38" fill="#F0EB69" rx="5" />
+          <path fill="#FF0909" d="M0 0h48v11.472H0zM0 26.528h48V38H0z" />
         </g>
         <defs>
           <clipPath id="a">
-            <rect width="58" height="48" fill="#fff" rx="5" />
+            <rect width="48" height="38" fill="#fff" rx="5" />
           </clipPath>
         </defs>
       </svg>
