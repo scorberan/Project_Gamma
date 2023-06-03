@@ -25,9 +25,19 @@ export const SectionSkillsContent = (props) => {
           Education
         </button>
       </div>
-      {contentToShow === "hardSkills" && <div>Estas son mis hard skills</div>}
-      {contentToShow === "softSkills" && <div>Estas son mis soft skills</div>}
-      {contentToShow === "education" && <div>Estas son mis education</div>}
+      {contentToShow === "hardSkills" && (
+        <div className="hardskills-content">Estas son mis hard skills</div>
+      )}
+      {contentToShow === "softSkills" && (
+        <div className="softskills-content">Estas son mis soft skills</div>
+      )}
+      {contentToShow === "education" && (
+        <div className="education-content">
+          <button className="ba-info">
+            BA Graphic Design ( Visual communications & Illustrations) UWL
+          </button>
+        </div>
+      )}
     </>
   );
 };
