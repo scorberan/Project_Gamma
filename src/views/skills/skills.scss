@@ -81,8 +81,16 @@ button {
 .hardskills-title {
   padding-top: 10px;
 }
+.content-small {
+  display: flex;
+
+  align-items: center;
+}
 
 .hardskills-info-small {
+  font-size: 20px;
+  font-family: var(--font);
+  font-weight: 700;
   width: 192px;
   height: 88px;
   margin: 15px 12px;

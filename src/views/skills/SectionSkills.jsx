@@ -12,6 +12,7 @@ import ExcelIcon from "../../components/icons/Excel-icon";
 import IndesignIcon from "../../components/icons/Indesign-icon";
 import IllustratorIcon from "../../components/icons/Illustrator";
 import PhotoshopIcon from "../../components/icons/Photoshop-icon";
+import ResearchIcon from "../../components/icons/Research";
 
 export const SectionSkillsContent = (props) => {
   const [contentToShow, setContentToShow] = useState("hardSkills");
@@ -82,12 +83,23 @@ export const SectionSkillsContent = (props) => {
               </div>
             </div>
             <div>
-              <button className="hardskills-info-small">Research</button>
-              <button className="hardskills-info-small">Wire framing</button>
-              <button className="hardskills-info-small">Prototying</button>
-              <button className="hardskills-info-small">
-                Visual communications
-              </button>
+              <div className="content-small">
+                <div className="hardskills-info-small">
+                  <div className="">
+                    <div className="hardskills-small-title">Research</div>{" "}
+                    <ResearchIcon></ResearchIcon>
+                  </div>
+                </div>
+
+                <div className="hardskills-info-small">Wire framing</div>
+              </div>
+
+              <div className="content-small">
+                <div className="hardskills-info-small">Prototying</div>
+                <div className="hardskills-info-small">
+                  Visual communications
+                </div>
+              </div>
             </div>
           </div>
         </div>
