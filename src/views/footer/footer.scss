@@ -4,6 +4,28 @@
   padding: 40px 38px;
   gap: 447px;
 
-  width: 100%;
   height: 197px;
+}
+.logo-bold {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo-thin {
+  font-weight: 300;
+  font-size: 24px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+a {
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
 }

@@ -8,11 +8,11 @@ function App() {
   return (
     <>
       <header>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/"></Link>
+        <Link to="/projects"></Link>
       </header>
       <Outlet />
-      <footer className="read-the-docs">My footer</footer>
+      <footer className="read-the-docs"></footer>
     </>
   );
 }

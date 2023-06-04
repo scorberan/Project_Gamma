@@ -115,6 +115,7 @@ export const SectionSkillsContent = (props) => {
             <button className="softskills-info">Communicative</button>
             <button className="softskills-info">Empathetic</button>
             <button className="softskills-info">Adaptability</button>
+            <button className="softskills-info">Organized</button>
           </div>
         </div>
       )}

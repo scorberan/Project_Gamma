@@ -7,14 +7,12 @@ function Contact() {
     <>
       <section className="contact">
         <div className="gradient-circle">
-          <div>
-            <h3>Thank you for visiting my website</h3>
-            <h4>
-              {" "}
-              If you have any inquiries, collaboration oppportunites or simply
-              want to connect, please don't hesitate to reach out.
-            </h4>
-            <h5> I look forward to hearing from you </h5>
+          <div className="content">
+            <h3>
+              Feel free to reach out to me with any inquiries, collaborations,
+              or opportunities - I'm here to help!
+            </h3>
+
             <div className="icons">
               <LinkedinIcon></LinkedinIcon>
               <InstagramIcon></InstagramIcon>
