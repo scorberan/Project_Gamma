@@ -4,7 +4,7 @@ import Topbar from "../../components/topbar/Topbar";
 import AboutMe from "../aboutmesection/AbouteMe";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
-
+import Footer from "../footer/Footer";
 const Landing = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const Landing = () => {
       <AboutMe></AboutMe>
       <Portfolio></Portfolio>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };
