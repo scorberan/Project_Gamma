@@ -1,0 +1,13 @@
+.contact {
+  width: 100%;
+}
+
+.gradient-circle {
+  max-width: 1500px;
+  height: 764px;
+
+  background: radial-gradient(circle at top left, #893bff, #ffff, transparent),
+    radial-gradient(circle at bottom right, #893bff, #ffff, transparent);
+
+  background-repeat: no-repeat;
+}

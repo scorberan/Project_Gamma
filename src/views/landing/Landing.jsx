@@ -3,6 +3,7 @@ import ButtonLarge from "../../components/buttons/ButtonLarge";
 import Topbar from "../../components/topbar/Topbar";
 import AboutMe from "../aboutmesection/AbouteMe";
 import Portfolio from "../portfolio/Portfolio";
+import Contact from "../contact/Contact";
 
 const Landing = () => {
   return (
@@ -12,6 +13,7 @@ const Landing = () => {
       <ButtonLarge>Check it out!</ButtonLarge>
       <AboutMe></AboutMe>
       <Portfolio></Portfolio>
+      <Contact></Contact>
     </div>
   );
 };
