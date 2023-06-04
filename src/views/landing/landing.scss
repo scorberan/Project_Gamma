@@ -1,4 +1,19 @@
 @import "../../scss/global.scss";
-.background-ladding {
-  background-color: linear-gradient (45deg, #893bff, #ffff);
+.landing-background {
+  height: 908px;
+
+  background: radial-gradient(circle at top left, #893bff, #ffff, transparent),
+    radial-gradient(circle at bottom right, #893bff, #ffff, transparent);
+
+  background-repeat: no-repeat;
+}
+.landing-content {
+  width: 100%;
+}
+
+.main-content {
+  margin: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,5 +1,6 @@
 import "./topBar.scss";
 import HomeIcon from "../icons/Home-icon";
+import ToggleButton from "../tooglebtn/ToogleBtn";
 
 function Topbar() {
   return (
@@ -8,9 +9,12 @@ function Topbar() {
         <p className="logo-bold">
           SARAH<span className="logo-thin">CORBERAN</span>
         </p>
-        <HomeIcon></HomeIcon>
-        <button className="nav-btn">Portfolio</button>
-        <button className="nav-btn">Contact</button>
+        <div>
+          <HomeIcon></HomeIcon>
+          <button className="nav-btn">Portfolio</button>
+          <button className="nav-btn">Contact</button>
+          <ToggleButton></ToggleButton>
+        </div>
       </div>
     </>
   );
