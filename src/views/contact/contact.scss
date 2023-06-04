@@ -1,6 +1,9 @@
 .contact {
   width: 100%;
 }
+.btn {
+  justify-content: center;
+}
 
 .gradient-circle {
   max-width: 1500px;
@@ -10,4 +13,9 @@
     radial-gradient(circle at bottom right, #893bff, #ffff, transparent);
 
   background-repeat: no-repeat;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
 }

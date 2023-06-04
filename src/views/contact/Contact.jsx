@@ -1,5 +1,7 @@
 import "./contact.scss";
 import ButtonMedium from "../../components/buttons/ButtonMedium";
+import LinkedinIcon from "../../components/icons/LinkedinIcon";
+import InstagramIcon from "../../components/icons/InstagramIcon";
 function Contact() {
   return (
     <>
@@ -13,8 +15,12 @@ function Contact() {
               want to connect, please don't hesitate to reach out.
             </h4>
             <h5> I look forward to hearing from you </h5>
-            <ButtonMedium>Get in touch</ButtonMedium>
+            <div className="icons">
+              <LinkedinIcon></LinkedinIcon>
+              <InstagramIcon></InstagramIcon>
+            </div>
           </div>
+          <ButtonMedium className="btn">Get in touch</ButtonMedium>
         </div>
       </section>
     </>
