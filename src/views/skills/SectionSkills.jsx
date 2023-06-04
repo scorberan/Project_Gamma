@@ -13,6 +13,7 @@ import IndesignIcon from "../../components/icons/Indesign-icon";
 import IllustratorIcon from "../../components/icons/Illustrator";
 import PhotoshopIcon from "../../components/icons/Photoshop-icon";
 import ResearchIcon from "../../components/icons/Research";
+import PencilRulerIcon from "../../components/icons/PencilRulerIcon";
 
 export const SectionSkillsContent = (props) => {
   const [contentToShow, setContentToShow] = useState("hardSkills");
@@ -85,13 +86,17 @@ export const SectionSkillsContent = (props) => {
             <div>
               <div className="content-small">
                 <div className="hardskills-info-small">
-                  <div className="">
+                  <div className="inside-content">
                     <div className="hardskills-small-title">Research</div>{" "}
                     <ResearchIcon></ResearchIcon>
                   </div>
                 </div>
-
-                <div className="hardskills-info-small">Wire framing</div>
+                <div className="hardskills-info-small">
+                  <div className="inside-content">
+                    <div className="hardskills-small-title">Wire framing</div>{" "}
+                    <PencilRulerIcon></PencilRulerIcon>
+                  </div>
+                </div>
               </div>
 
               <div className="content-small">
