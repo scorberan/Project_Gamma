@@ -22,7 +22,9 @@ export const SectionSkillsContent = (props) => {
       <div className="skills-content">
         <button
           onClick={() => setContentToShow("hardSkills")}
-          className={contentToShow === "hardSkills" ? "btn-purple" : ""}
+          className={`skill-button ${
+            contentToShow === "hardSkills" ? "btn-purple" : ""
+          }`}
         >
           Hard skills
         </button>

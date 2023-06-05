@@ -12,7 +12,12 @@ function Footer() {
         <p className="copyright">&copy;SarahCorberan. All rights reserved.</p>
         <p className="links">
           {" "}
-          <a href="https://www.example.com">Linkedin</a>
+          <a
+            href="https://www.linkedin.com/in/sarah-corberan-a93a221b5/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
         </p>
         <div></div>
         <p className="links">

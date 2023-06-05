@@ -9,10 +9,17 @@ function Topbar() {
         <p className="logo-bold">
           SARAH<span className="logo-thin">CORBERAN</span>
         </p>
-        <div>
-          <HomeIcon></HomeIcon>
-          <button className="nav-btn">Portfolio</button>
-          <button className="nav-btn">Contact</button>
+        <div className="nav-btn">
+          <a className="nav-btn" href="home">
+            {" "}
+            <HomeIcon></HomeIcon>
+          </a>
+          <a className="nav-btn" href="#portfolio">
+            Portfolio
+          </a>
+          <a className="nav-btn" href="#contact">
+            Contact
+          </a>
           <ToggleButton></ToggleButton>
         </div>
       </div>

@@ -1,9 +1,8 @@
 .large-btn {
   gap: 10px;
-  width: 516px;
-  height: 140px;
+
   background: var(--color-dark-purple);
-  border: 1px solid #79797c;
+  padding: 46px 150px;
   border-radius: 12px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
@@ -12,6 +11,11 @@
   line-height: 48px;
   margin: 0;
   color: #ffffff;
+  text-decoration: none;
+}
+.large-btn:hover {
+  background-color: var(--color-light-purple);
+  color: white;
 }
 
 .Medium-btn {
@@ -26,4 +30,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 800;
   font-size: 36px;
+}
+
+.Medium-btn:hover {
+  background-color: var(--color-light-purple);
+  color: white;
 }

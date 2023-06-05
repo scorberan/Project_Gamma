@@ -6,7 +6,7 @@ import ContactTitle from "../../components/titles/TitleContact";
 function Contact() {
   return (
     <>
-      <section className="contact">
+      <section id="contact" className="contact">
         <div className="gradient-circle">
           <div className="content-contact">
             <ContactTitle>

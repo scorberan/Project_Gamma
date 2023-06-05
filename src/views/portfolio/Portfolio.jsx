@@ -5,7 +5,7 @@ import ButtonMedium from "../../components/buttons/ButtonMedium";
 function Portfolio() {
   return (
     <>
-      <section>
+      <section id="portfolio">
         <div>
           <GradientTitle>My case studies</GradientTitle>
           <h3 className="title">Portfolio</h3>

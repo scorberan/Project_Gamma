@@ -1,7 +1,11 @@
 import "./buttons.scss";
 
 const ButtonLarge = (props) => {
-  return <button className="large-btn">{props.children}</button>;
+  return (
+    <a className="large-btn" href="#portfolio">
+      {props.children}
+    </a>
+  );
 };
 
 export default ButtonLarge;

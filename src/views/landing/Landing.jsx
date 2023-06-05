@@ -8,7 +8,7 @@ import Footer from "../footer/Footer";
 import "./landing.scss";
 const Landing = () => {
   return (
-    <div>
+    <div id="home">
       <div className="landing-content">
         <div className="landing-background">
           <Topbar></Topbar>
