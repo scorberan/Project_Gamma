@@ -4,8 +4,13 @@
 .btn {
   justify-content: center;
 }
-.content {
-  text-align: center;
+.content-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 147px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .gradient-circle {
@@ -20,4 +25,8 @@
 .icons {
   display: flex;
   justify-content: center;
+}
+
+.contact-btn {
+  padding: 42px;
 }

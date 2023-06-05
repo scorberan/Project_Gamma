@@ -41,7 +41,7 @@ button {
   font-family: var(--font);
   font-size: 20px;
   margin-top: 20px;
-  width: 728px;
+  width: 709px;
   height: 698px;
   background: rgba(151, 71, 255, 0.45);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -63,8 +63,8 @@ button {
   padding: 22px 35px;
   font-weight: 700;
 
-  width: 541px;
-  height: 32px;
+  width: 596px;
+  height: 37px;
 
   background: rgba(151, 71, 255, 0.45);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -83,15 +83,14 @@ button {
 }
 .content-small {
   display: flex;
-
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .hardskills-info-small {
   font-size: 20px;
   font-family: var(--font);
   font-weight: 700;
-  width: 266px;
+  width: 288px;
   height: 88px;
   margin: 15px 12px;
   background: rgba(151, 71, 255, 0.45);
@@ -108,7 +107,7 @@ button {
 }
 
 .container {
-  margin: 25px 65px;
+  margin: 25px 108px;
 }
 .softskills-info {
   width: 218px;
@@ -135,7 +134,7 @@ button {
 }
 
 .edu-info {
-  width: 575px;
+  width: 645px;
   height: 93px;
   margin-top: 38px;
   padding: 10px 5px;

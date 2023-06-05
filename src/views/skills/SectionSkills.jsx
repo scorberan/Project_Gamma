@@ -98,11 +98,20 @@ export const SectionSkillsContent = (props) => {
                   </div>
                 </div>
               </div>
-
               <div className="content-small">
-                <div className="hardskills-info-small">Prototying</div>
                 <div className="hardskills-info-small">
-                  Visual communications
+                  <div className="inside-content">
+                    <div className="hardskills-small-title">Prototying</div>{" "}
+                    <PencilRulerIcon></PencilRulerIcon>
+                  </div>
+                </div>
+                <div className="hardskills-info-small">
+                  <div className="inside-content">
+                    <div className="hardskills-small-title">
+                      Visual communications
+                    </div>{" "}
+                    <PencilRulerIcon></PencilRulerIcon>
+                  </div>
                 </div>
               </div>
             </div>
