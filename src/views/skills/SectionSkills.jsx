@@ -30,13 +30,17 @@ export const SectionSkillsContent = (props) => {
         </button>
         <button
           onClick={() => setContentToShow("softSkills")}
-          className={contentToShow === "softSkills" ? "btn-green" : ""}
+          className={`skill-button ${
+            contentToShow === "softSkills" ? "btn-green" : ""
+          } `}
         >
           Soft skills
         </button>
         <button
           onClick={() => setContentToShow("education")}
-          className={contentToShow === "education" ? "btn-blue" : ""}
+          className={`skill-button ${
+            contentToShow === "education" ? "btn-blue" : ""
+          } `}
         >
           Education
         </button>
@@ -50,7 +54,7 @@ export const SectionSkillsContent = (props) => {
                 <div className="content">
                   <div className="hardskills-title"> Trilingual</div>
                   <div>
-                    <SpainflagIcon></SpainflagIcon>{" "}
+                    <SpainflagIcon></SpainflagIcon>
                     <GermanflagIcon></GermanflagIcon>
                     <EnglishflagIcon></EnglishflagIcon>
                   </div>
@@ -124,29 +128,55 @@ export const SectionSkillsContent = (props) => {
         <div className="softskills-content">
           {" "}
           <div className="container ">
-            <button className="softskills-info"> Active listener</button>
-            <button className="softskills-info">Autodidacticism</button>
-            <button className="softskills-info">Open-minded</button>
-            <button className="softskills-info">Team-player</button>
-            <button className="softskills-info">Communicative</button>
-            <button className="softskills-info">Empathetic</button>
-            <button className="softskills-info">Adaptability</button>
-            <button className="softskills-info">Organized</button>
+            <div className="content-info">
+              <div className="softskills-info">
+                <div className="softskills-title">Active listener</div>
+              </div>
+              <div className="softskills-info">
+                <div className="softskills-title">Autodidacticism</div>
+              </div>
+            </div>
+            <div className="content-info">
+              <div className="softskills-info">
+                <div className="softskills-title">Open-minded</div>
+              </div>
+              <div className="softskills-info">
+                <div className="softskills-title">Team-player</div>
+              </div>
+            </div>
+            <div className="content-info">
+              <div className="softskills-info">
+                <div className="softskills-title">Communicative</div>
+              </div>
+              <div className="softskills-info">
+                <div className="softskills-title">Empathetic</div>
+              </div>
+            </div>
+            <div className="content-info">
+              <div className="softskills-info">
+                <div className="softskills-title">Adaptability</div>
+              </div>
+              <div className="softskills-info">
+                <div className="softskills-title">Organized</div>
+              </div>
+            </div>
           </div>
         </div>
       )}
       {contentToShow === "education" && (
         <div className="education-content">
-          <button className="edu-info">
+          <div className="edu-info">
             {" "}
-            <span className="bold">BA</span>
-            Graphic Design ( Visual communications & Illustrations){" "}
-            <span className="bold">UWL</span>{" "}
-          </button>
-          <button className="edu-info">
-            MA UX/UI, Digital Marketing and Frond-End Web development{" "}
-            <span className="bold"> ESAT</span>
-          </button>
+            <div className="edu-title">
+              BA Graphic Design ( Visual communications & Illustrations)- UWL{" "}
+            </div>
+          </div>
+          <div className="edu-info">
+            {" "}
+            <div className="edu-title">
+              MA UX/UI, Digital Marketing and Frond-End Web development-ESAT{" "}
+            </div>
+          </div>
         </div>
       )}
     </>

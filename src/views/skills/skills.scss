@@ -1,9 +1,9 @@
-button {
+.skill-button {
   font-family: var(--font);
   font-weight: 600;
   border-radius: 50px;
   padding: 20px 30px;
-  margin-left: 35px;
+
   font-size: 20px;
   background-color: #eeeaea;
   border: none;
@@ -15,7 +15,8 @@ button {
   max-height: 69px;
   border-radius: 40px;
   padding: 10px 25px;
-
+  display: flex;
+  justify-content: space-around;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -24,17 +25,26 @@ button {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.btn-purple:hover {
+  background-color: rgba(151, 71, 255, 0.45);
+}
 
 .btn-blue {
   background-color: var(--color-light-blue);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.btn-blue:hover {
+  background-color: rgba(0, 127, 255, 0.45);
+}
 
 .btn-green {
   background-color: var(--color-light-green);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-green:hover {
+  background-color: rgba(168, 228, 160, 0.45);
 }
 
 .hardskills-content {
@@ -107,7 +117,13 @@ button {
 }
 
 .container {
-  margin: 25px 108px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.content-info {
+  display: flex;
 }
 .softskills-info {
   width: 218px;
@@ -118,12 +134,21 @@ button {
   border-radius: 25px;
   margin: 15px;
 }
+.softskills-title {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  font-size: 16px;
+}
 
 .education-content {
   margin-top: 20px;
-  width: 728px;
+  width: 738px;
   height: 309px;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
   background: rgba(0, 127, 255, 0.45);
   border-radius: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -134,8 +159,8 @@ button {
 }
 
 .edu-info {
-  width: 645px;
-  height: 93px;
+  width: 591px;
+  height: 79px;
   margin-top: 38px;
   padding: 10px 5px;
   background: rgba(0, 127, 255, 0.45);
@@ -143,4 +168,12 @@ button {
   border-radius: 25px;
   font-family: var(--font);
   font-size: 16px;
+}
+
+.edu-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 25px;
+  font-weight: 600;
 }

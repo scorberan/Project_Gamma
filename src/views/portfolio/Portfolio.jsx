@@ -10,6 +10,7 @@ function Portfolio() {
           <GradientTitle>My case studies</GradientTitle>
           <h3 className="title">Portfolio</h3>
         </div>
+
         <ButtonMedium>See more!</ButtonMedium>
       </section>
     </>
