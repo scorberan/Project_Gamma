@@ -22,7 +22,9 @@ function Footer() {
         <div></div>
         <p className="links">
           {" "}
-          <a href="https://www.example.com">Instagram</a>
+          <a href="https://www.instagram.com/design_scl/" target="_blank">
+            Instagram
+          </a>
         </p>
       </div>
     </>

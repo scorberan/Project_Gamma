@@ -10,6 +10,10 @@
   max-height: 1500px;
   width: 100%;
 }
+.gape-container {
+  padding-top: 218px;
+  padding-bottom: 218px;
+}
 .titles-content {
   width: 100%;
 }
@@ -20,4 +24,9 @@
   font-family: var(--font);
   font-size: 64px;
   margin: 5px;
+}
+
+.btn-content {
+  padding: 55px;
+  max-height: 52px;
 }

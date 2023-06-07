@@ -5,7 +5,7 @@ import SwiperGallery from "../../components/gallery/SwiperGallery";
 function Portfolio() {
   return (
     <>
-      <section id="portfolio">
+      <section id="portfolio" className="gape-container">
         <div className="section-portfolio">
           <div className="titles-content">
             <GradientTitle>My case studies</GradientTitle>
