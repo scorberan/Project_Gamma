@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.scss";
 import Landing from "./views/landing/Landing.jsx";
 
-//import Projects from "./views/projects/Projects.jsx";
+import Projects from "./views/projects/Projects.jsx";
 // import ProjectDetails from "./views/project-details/ProjectDetails.jsx";
 import "./index.scss";
 
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Landing /> },
 
-      //{ path: "projects", element: <Projects /> },
+      { path: "projects", element: <Projects /> },
     ],
   },
 ]);

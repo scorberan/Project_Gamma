@@ -16,7 +16,7 @@ function Contact() {
             </ContactTitle>
 
             <div className="icons">
-              <LinkedinIcon></LinkedinIcon>
+              <LinkedinIcon className="linkedin-icon"></LinkedinIcon>
               <InstagramIcon></InstagramIcon>
             </div>
             <div className="contact-btn">
