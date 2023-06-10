@@ -3,7 +3,8 @@ import "./projects.scss";
 import Topbar from "../../components/topbar/Topbar";
 import Footer from "../footer/Footer";
 import ImgReseluta from "../../assets/images/iphone-mockup.png";
-//import ImgGraphic from "../../assets/images/Illustrations.png";
+import CoverImgAboutMe from "../../assets/images/CoverImgAboutMe.png";
+import ImgGraphic from "../../assets/images/Illustrations.png";
 
 function Projects() {
   return (
@@ -19,13 +20,13 @@ function Projects() {
           <div className="project-card">
             <div className="card">
               <img
-                src={ImgReseluta}
+                src={CoverImgAboutMe}
                 className="card-img"
-                alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
+                alt="mockups of the about me website in different devices"
               />
               <div className="card-body">
-                <h1 className="card-title">Reseluta</h1>
-                <p className="card-subtitle">Project Beta</p>
+                <h1 className="card-title">About me </h1>
+                <p className="card-subtitle">Project Alpha</p>
                 <p className="card-info">
                   Unlock your Business's full potential with Resoluta's expert
                   Problem-Solving solutions and unwavering dedication to your
@@ -61,17 +62,16 @@ function Projects() {
           <div className="project-card">
             <div className="card">
               <img
-                src={ImgReseluta}
+                src={ImgGraphic}
                 className="card-img"
                 alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
               />
               <div className="card-body">
-                <h1 className="card-title">Reseluta</h1>
-                <p className="card-subtitle">Project Beta</p>
+                <h1 className="card-title">Graphic & Illustractions design</h1>
+                <p className="card-subtitle">BA portfolio</p>
                 <p className="card-info">
-                  Unlock your Business's full potential with Resoluta's expert
-                  Problem-Solving solutions and unwavering dedication to your
-                  success.
+                  Take a journey through the past, where you be able to see all
+                  of my best work during my bachelors degree.
                 </p>
                 <div className="card-btn-container">
                   <button className="card-btn">See more</button>
