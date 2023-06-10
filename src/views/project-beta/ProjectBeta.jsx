@@ -2,6 +2,7 @@ import "./beta.scss";
 //import ImgReseluta from "../../assets/images/iphone-mockup.png";
 //import GradientTitle from "../../components/titles/GradientTitle";
 import Topbar from "../../components/topbar/Topbar";
+import Footer from "../footer/Footer";
 //import ProjectBackgroundTop from "../../components/projects-background/ProjectBackground_Top";
 //import ProjectBackgroundBottom from "../../components/projects-background/ProjectBackground_Bottom";
 
@@ -29,6 +30,7 @@ function ProjectBeta() {
           <div className="background-beta-green"></div>
           <div className="background-beta-blue"></div>
         </div>
+        <Footer></Footer>
       </section>
     </>
   );

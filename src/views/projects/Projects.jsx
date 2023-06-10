@@ -1,7 +1,7 @@
 import "./projects.scss";
-import GradientTitle from "../../components/titles/GradientTitle";
+//import GradientTitle from "../../components/titles/GradientTitle";
 import Topbar from "../../components/topbar/Topbar";
-import ButtonMedium from "../../components/buttons/ButtonMedium";
+import Footer from "../footer/Footer";
 import ImgReseluta from "../../assets/images/iphone-mockup.png";
 //import ImgGraphic from "../../assets/images/Illustrations.png";
 
@@ -11,8 +11,8 @@ function Projects() {
       <section>
         <Topbar></Topbar>
         <div className="projects-page-title">
-          <GradientTitle>My case studies</GradientTitle>
-          <h1 className="title">Portfolio</h1>
+          <h2 className="gradient-title-projects">My case studies</h2>
+          <h1 className="title-projects">Portfolio</h1>
         </div>
         <div className="projects-content">
           <div className="project-container">
@@ -30,10 +30,13 @@ function Projects() {
               <div className="project">LIGHTUP!</div>
             </div>
           </div>
-          <div className="btn-container">
-            <ButtonMedium>Go back</ButtonMedium>
-          </div>
         </div>
+        <div>
+          <a className="projects-link" href="#portfolio">
+            Go back
+          </a>
+        </div>
+        <Footer></Footer>
       </section>
     </>
   );
