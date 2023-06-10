@@ -14,20 +14,90 @@ function Projects() {
           <h2 className="gradient-title-projects">My case studies</h2>
           <h1 className="title-projects">Portfolio</h1>
         </div>
-        <div className="projects-content">
-          <div className="project-container">
-            <div className="project-main">
-              <div className="project">ABOUT ME</div>
-              <div className="project">
-                <img
-                  src={ImgReseluta}
-                  alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
-                />
+
+        <div className="container-card">
+          <div className="project-card">
+            <div className="card">
+              <img
+                src={ImgReseluta}
+                className="card-img"
+                alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
+              />
+              <div className="card-body">
+                <h1 className="card-title">Reseluta</h1>
+                <p className="card-subtitle">Project Beta</p>
+                <p className="card-info">
+                  Unlock your Business's full potential with Resoluta's expert
+                  Problem-Solving solutions and unwavering dedication to your
+                  success.
+                </p>
+                <div className="card-btn-container">
+                  <button className="card-btn">See more</button>
+                </div>
               </div>
             </div>
-            <div className="project-main">
-              <div className="project">GRAPHIC</div>
-              <div className="project">LIGHTUP!</div>
+          </div>
+          <div className="project-card">
+            <div className="card">
+              <img
+                src={ImgReseluta}
+                className="card-img"
+                alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
+              />
+              <div className="card-body">
+                <h1 className="card-title">Reseluta</h1>
+                <p className="card-subtitle">Project Beta</p>
+                <p className="card-info">
+                  Unlock your Business's full potential with Resoluta's expert
+                  Problem-Solving solutions and unwavering dedication to your
+                  success.
+                </p>
+                <div className="card-btn-container">
+                  <button className="card-btn">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="card">
+              <img
+                src={ImgReseluta}
+                className="card-img"
+                alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
+              />
+              <div className="card-body">
+                <h1 className="card-title">Reseluta</h1>
+                <p className="card-subtitle">Project Beta</p>
+                <p className="card-info">
+                  Unlock your Business's full potential with Resoluta's expert
+                  Problem-Solving solutions and unwavering dedication to your
+                  success.
+                </p>
+                <div className="card-btn-container">
+                  <button className="card-btn">See more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="card">
+              <img
+                src={ImgReseluta}
+                className="card-img"
+                alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
+              />
+              <div className="card-body">
+                <h1 className="card-title">Reseluta</h1>
+                <p className="card-subtitle">Project Beta</p>
+                <p className="card-info">
+                  Unlock your Business's full potential with Resoluta's expert
+                  Problem-Solving solutions and unwavering dedication to your
+                  success.
+                </p>
+                <div className="card-btn-container">
+                  <button className="card-btn">See more</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

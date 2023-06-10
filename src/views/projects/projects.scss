@@ -1,58 +1,12 @@
-.project-container {
-  display: flex;
-
-  justify-content: center;
-  gap: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  height: 543px;
-  max-width: 1500px;
-  width: 100%;
-}
-.projects-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.project-info {
-  transition: transform 0.3s;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: 20px;
-  background: #00000070;
-  transform: translateY(100%);
-}
-.project {
-  background-color: var(--color-dark-purple);
-  width: 306px;
-  height: 390px;
-  border-radius: 25px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.project-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 55px;
-  padding-top: 55px;
-}
-
 .projects-page-title {
   padding-left: 55px;
   padding-top: 65px;
 }
-img {
-  width: 100%;
-  border-radius: 25px;
-}
+
 .projects-link {
   color: var(--color-dark-purple);
   font-size: 24px;
-  max-width: 1661px;
+  max-width: 1690px;
   display: flex;
   justify-content: end;
   padding-bottom: 85px;
@@ -75,4 +29,87 @@ img {
 .title-projects {
   font-size: 64px;
   margin: 0;
+}
+.container-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card {
+  width: 320px;
+  height: 500px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 8px solid rgba(0, 127, 255, 0.5);
+  position: relative;
+}
+
+.project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #21212158;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+.card:hover .card-body {
+  right: 0;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 55px;
+  padding-left: 30px;
+}
+.card-subtitle {
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+.card-info {
+  font-size: 16px;
+  width: 224px;
+  padding-left: 30px;
+  line-height: 25px;
+}
+.card-btn-container {
+  padding-left: 30px;
+}
+.card-btn {
+  color: white;
+  background-color: rgba(0, 127, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+  width: 250px;
 }
