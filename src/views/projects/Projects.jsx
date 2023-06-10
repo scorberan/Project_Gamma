@@ -46,7 +46,7 @@ function Projects() {
                 alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
               />
               <div className="card-body">
-                <h1 className="card-title">Reseluta</h1>
+                <h1 className="card-title">Resoluta</h1>
                 <p className="card-subtitle">Project Beta</p>
                 <p className="card-info">
                   Unlock your Business's full potential with Resoluta's expert
