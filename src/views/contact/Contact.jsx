@@ -1,8 +1,9 @@
 import "./contact.scss";
-import ButtonMedium from "../../components/buttons/ButtonMedium";
+//import ButtonMedium from "../../components/buttons/ButtonMedium";
 import LinkedinIcon from "../../components/icons/LinkedinIcon";
 import InstagramIcon from "../../components/icons/InstagramIcon";
 import ContactTitle from "../../components/titles/TitleContact";
+import ContactButtom from "../../components/buttons/ContactMediumButtom";
 function Contact() {
   return (
     <>
@@ -27,7 +28,7 @@ function Contact() {
               </a>
             </div>
             <div className="contact-btn">
-              <ButtonMedium className="btn">Get in touch</ButtonMedium>
+              <ContactButtom className="btn">Get in touch</ContactButtom>
             </div>
           </div>
         </div>
