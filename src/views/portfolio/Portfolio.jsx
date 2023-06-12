@@ -1,6 +1,7 @@
 import GradientTitle from "../../components/titles/GradientTitle";
 import "./portfolio.scss";
-import ButtonMedium from "../../components/buttons/ButtonMedium";
+//import ButtonMedium from "../../components/buttons/ButtonMedium";
+import ProjectButtom from "../../components/buttons/ProjectMediumButtom";
 import SwiperGallery from "../../components/gallery/SwiperGallery";
 function Portfolio() {
   return (
@@ -15,7 +16,7 @@ function Portfolio() {
             <SwiperGallery></SwiperGallery>
           </div>
           <div className="btn-content">
-            <ButtonMedium className="inside-content">See more!</ButtonMedium>
+            <ProjectButtom className="inside-content">See more!</ProjectButtom>
           </div>
         </div>
       </section>

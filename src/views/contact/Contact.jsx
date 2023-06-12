@@ -16,8 +16,15 @@ function Contact() {
             </ContactTitle>
 
             <div className="icons">
-              <LinkedinIcon className="linkedin-icon"></LinkedinIcon>
-              <InstagramIcon></InstagramIcon>
+              <a href="https://www.instagram.com/design_scl/" target="_blank">
+                <InstagramIcon className="linkedin-icon"></InstagramIcon>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sarah-corberan-a93a221b5/"
+                target="_blank"
+              >
+                <LinkedinIcon></LinkedinIcon>
+              </a>
             </div>
             <div className="contact-btn">
               <ButtonMedium className="btn">Get in touch</ButtonMedium>
