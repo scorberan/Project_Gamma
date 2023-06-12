@@ -10,10 +10,12 @@ function Topbar() {
           SARAH<span className="logo-thin">CORBERAN</span>
         </p>
         <div className="nav-btn">
-          <a className="nav-btn" href="#home">
-            {" "}
-            <HomeIcon></HomeIcon>
-          </a>
+          <li>
+            <a href="/">
+              {" "}
+              <HomeIcon></HomeIcon>
+            </a>
+          </li>
           <a className="nav-btn" href="#portfolio">
             Portfolio
           </a>
