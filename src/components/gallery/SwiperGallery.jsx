@@ -35,8 +35,28 @@ export default function App() {
         <SwiperSlide>
           <img
             src={ImgReseluta}
+            className="swiperslide-card"
             alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
           />
+          <div className="swiperslide-body">
+            <h1 className="swiperslide-title">
+              Graphic & Illustractions design
+            </h1>
+            <p className="swiperslide-subtitle">BA portfolio</p>
+            <p className="card-info">
+              Take a journey through the past, where you be able to see all of
+              my best work during my bachelors degree.
+            </p>
+            <div className="swiperslide-btn-container">
+              <a
+                href="Design_Portfolio_Sarah Corberan.pdf"
+                target="_blank"
+                className="swiperslide-btn"
+              >
+                See more
+              </a>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img
