@@ -1,6 +1,7 @@
 import "./gallery.scss";
 import React, { useRef, useState } from "react";
 import ImgReseluta from "../../assets/images/iphone-mockup.png";
+import CoverImgAboutMe from "../../assets/images/CoverImgAboutMe.png";
 import ImgGraphic from "../../assets/images/Illustrations.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -22,7 +23,14 @@ export default function App() {
         modules={[FreeMode, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>About me</SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <img
+            src={CoverImgAboutMe}
+            className="card-img"
+            alt="mockups of the about me website in different devices"
+          />
+        </SwiperSlide>
         <SwiperSlide>
           <img
             src={ImgReseluta}

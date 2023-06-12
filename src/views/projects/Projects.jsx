@@ -5,6 +5,7 @@ import Footer from "../footer/Footer";
 import ImgReseluta from "../../assets/images/iphone-mockup.png";
 import CoverImgAboutMe from "../../assets/images/CoverImgAboutMe.png";
 import ImgGraphic from "../../assets/images/Illustrations.png";
+import LightUpCover from "../../assets/images/Lightup/LightUpCover.png.png";
 
 function Projects() {
   return (
@@ -28,9 +29,8 @@ function Projects() {
                 <h1 className="card-title">About me </h1>
                 <p className="card-subtitle">Project Alpha</p>
                 <p className="card-info">
-                  Unlock your Business's full potential with Resoluta's expert
-                  Problem-Solving solutions and unwavering dedication to your
-                  success.
+                  The light is shining, and this time is on me. Come get a
+                  glimpse into my world and get to know me.
                 </p>
                 <div className="card-btn-container">
                   <button className="card-btn">See more</button>
@@ -82,20 +82,20 @@ function Projects() {
           <div className="project-card">
             <div className="card">
               <img
-                src={ImgReseluta}
+                src={LightUpCover}
                 className="card-img"
                 alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
               />
               <div className="card-body">
-                <h1 className="card-title">Reseluta</h1>
-                <p className="card-subtitle">Project Beta</p>
+                <h1 className="card-title">LightUp</h1>
+                <p className="card-subtitle">ongoing project</p>
                 <p className="card-info">
-                  Unlock your Business's full potential with Resoluta's expert
-                  Problem-Solving solutions and unwavering dedication to your
-                  success.
+                  Fasten your seatbelts, we are on for a ride. Ready to
+                  experience the most captivating feature out in the market for
+                  your car?
                 </p>
                 <div className="card-btn-container">
-                  <button className="card-btn">See more</button>
+                  <button className="card-btn">On hold</button>
                 </div>
               </div>
             </div>
