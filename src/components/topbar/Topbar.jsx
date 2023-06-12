@@ -10,7 +10,7 @@ function Topbar() {
           SARAH<span className="logo-thin">CORBERAN</span>
         </p>
         <div className="nav-btn">
-          <a className="nav-btn" href="home">
+          <a className="nav-btn" href="#home">
             {" "}
             <HomeIcon></HomeIcon>
           </a>

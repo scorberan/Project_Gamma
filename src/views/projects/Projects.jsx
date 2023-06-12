@@ -6,7 +6,7 @@ import ImgReseluta from "../../assets/images/iphone-mockup.png";
 import CoverImgAboutMe from "../../assets/images/CoverImgAboutMe.png";
 import ImgGraphic from "../../assets/images/Illustrations.png";
 import LightUpCover from "../../assets/images/Lightup/LightUpCover.png.png";
-
+import ProjectBeta from "../project-beta/ProjectBeta";
 function Projects() {
   return (
     <>
@@ -33,7 +33,12 @@ function Projects() {
                   glimpse into my world and get to know me.
                 </p>
                 <div className="card-btn-container">
-                  <button className="card-btn">See more</button>
+                  <li>
+                    <a href="/aboutme" className="card-btn">
+                      {" "}
+                      See more
+                    </a>
+                  </li>
                 </div>
               </div>
             </div>
@@ -54,7 +59,12 @@ function Projects() {
                   success.
                 </p>
                 <div className="card-btn-container">
-                  <button className="card-btn">See more</button>
+                  <li>
+                    <a href="/resoluta" className="card-btn">
+                      {" "}
+                      See more
+                    </a>
+                  </li>
                 </div>
               </div>
             </div>
@@ -74,7 +84,13 @@ function Projects() {
                   of my best work during my bachelors degree.
                 </p>
                 <div className="card-btn-container">
-                  <button className="card-btn">See more</button>
+                  <a
+                    href="Design_Portfolio_Sarah Corberan.pdf"
+                    target="_blank"
+                    className="card-btn"
+                  >
+                    See more
+                  </a>
                 </div>
               </div>
             </div>
@@ -95,16 +111,18 @@ function Projects() {
                   your car?
                 </p>
                 <div className="card-btn-container">
-                  <button className="card-btn">On hold</button>
+                  <a className="card-btn">On hold</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div>
-          <a className="projects-link" href="#portfolio">
-            Go back
-          </a>
+        <div className="link-projects">
+          <li>
+            <a className="projects-link" href="/">
+              Go back
+            </a>
+          </li>
         </div>
         <Footer></Footer>
       </section>

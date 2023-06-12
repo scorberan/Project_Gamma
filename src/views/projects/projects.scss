@@ -101,16 +101,22 @@
 }
 .card-btn-container {
   padding-left: 30px;
+  list-style-type: none;
 }
 .card-btn {
   color: black;
   background-color: white;
-  padding: 10px 20px;
+  padding: 10px 76px;
   border-radius: 10px;
   text-transform: capitalize;
   border: none;
   outline: none;
   font-weight: 800;
   cursor: pointer;
-  width: 250px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.link-projects {
+  list-style-type: none;
 }

@@ -343,10 +343,12 @@ function ProjectBeta() {
             </div>
           </div>
         </div>
-        <div>
-          <a className="link-beta" href="#projects">
-            See all
-          </a>
+        <div className="link-projects">
+          <li>
+            <a className="projects-link" href="/projects">
+              Go back
+            </a>
+          </li>
         </div>
         <Footer></Footer>
       </section>
