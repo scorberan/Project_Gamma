@@ -1,12 +1,13 @@
-import "./buttons.scss";
+import { Link } from 'react-router-dom';
+import './buttons.scss';
 
 const ProjectButtom = (props) => {
   return (
     <div className="link-projects">
       <li>
-        <a className="Medium-btn" href="/projects">
+        <Link className="Medium-btn" to="/projects">
           See more
-        </a>
+        </Link>
       </li>
     </div>
   );

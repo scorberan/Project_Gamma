@@ -1,5 +1,6 @@
 import './topBar.scss';
 import HomeIcon from '../icons/Home-icon';
+import { Link } from 'react-router-dom';
 import ThemeButton from '../tooglebtn/ThemeButton';
 
 function Topbar() {
@@ -11,17 +12,16 @@ function Topbar() {
         </p>
         <div className="nav-btn">
           <li>
-            <a href="/">
-              {' '}
+            <Link to="/">
               <HomeIcon></HomeIcon>
-            </a>
+            </Link>
           </li>
-          <a className="nav-btn" href="#portfolio">
+          <Link className="nav-btn" to="/#portfolio">
             Portfolio
-          </a>
-          <a className="nav-btn" href="#contact">
+          </Link>
+          <Link className="nav-btn" to="/#contact">
             Contact
-          </a>
+          </Link>
           <ThemeButton />
         </div>
       </div>
