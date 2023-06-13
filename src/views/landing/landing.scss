@@ -1,9 +1,9 @@
-@import "../../scss/global.scss";
+@import '../../scss/global.scss';
 .landing-background {
   height: 977px;
 
-  background: radial-gradient(circle at top left, #893bff, #ffff, transparent),
-    radial-gradient(circle at bottom right, #893bff, #ffff, transparent);
+  background: radial-gradient(circle at top left, var(--color-light), #ffff, transparent),
+    radial-gradient(circle at bottom right, var(--color-light), #ffff, transparent);
 
   background-repeat: no-repeat;
 }

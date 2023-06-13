@@ -1,17 +1,12 @@
 .title-gradient {
   margin: 5px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
 
-  background: linear-gradient(
-    90deg,
-    #893bff 1.68%,
-    #a8e4a0 24.18%,
-    #8cc5ff 55.69%
-  );
+  background: linear-gradient(90deg, #893bff 1.68%, #a8e4a0 24.18%, #8cc5ff 55.69%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -21,12 +16,12 @@
   flex-grow: 0;
 }
 .landingpage-header {
-  color: var(--color-dark-purple);
+  color: var(--color-dark);
   font-size: 80px;
 }
 
 .contact-title {
-  color: var(--color-dark-purple);
+  color: var(--color-dark);
   font-size: 46px;
   font-weight: 700;
 }
