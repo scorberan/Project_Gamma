@@ -1,6 +1,6 @@
-import "./topBar.scss";
-import HomeIcon from "../icons/Home-icon";
-import ToggleButton from "../tooglebtn/ToogleBtn";
+import './topBar.scss';
+import HomeIcon from '../icons/Home-icon';
+import ThemeButton from '../tooglebtn/ThemeButton';
 
 function Topbar() {
   return (
@@ -12,7 +12,7 @@ function Topbar() {
         <div className="nav-btn">
           <li>
             <a href="/">
-              {" "}
+              {' '}
               <HomeIcon></HomeIcon>
             </a>
           </li>
@@ -22,7 +22,7 @@ function Topbar() {
           <a className="nav-btn" href="#contact">
             Contact
           </a>
-          <ToggleButton></ToggleButton>
+          <ThemeButton />
         </div>
       </div>
     </>

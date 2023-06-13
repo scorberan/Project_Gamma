@@ -6,7 +6,7 @@
   --color-dark-blue: #0f52ba;
   --color-light-blue: #007fff;
   --color-white: #fffdfd;
-  --font: "Inter", sans-serif;
+  --font: 'Inter', sans-serif;
   --font-weight-regular: 400px;
   --font-weight-thin: 300px;
   --font-weight-semibold: 600px;
@@ -15,17 +15,22 @@
   --swiper-pagination-bullet-width: 24px;
   --swiper-pagination-bullet-height: 24px;
   --swiper-pagination-color: #4c2882;
-}
-.theme-1 {
-  --color-dark-purple: #4c2882;
-  --color-light-purple: #893bff;
-}
-.theme-2 {
-  --color-dark-green: #317873;
-  --color-light-green: #a8e4a0;
+
+  --color-light: var(--color-light-purple);
+  --color-dark: var(--color-dark-purple);
 }
 
-.theme-3 {
-  --color-dark-blue: #0f52ba;
-  --color-light-blue: #007fff;
+.theme-purple {
+  --color-light: var(--color-light-purple);
+  --color-dark: var(--color-dark-purple);
+}
+
+.theme-green {
+  --color-light: var(--color-light-green);
+  --color-dark: var(--color-dark-green);
+}
+
+.theme-blue {
+  --color-light: var(--color-light-blue);
+  --color-dark: var(--color-dark-blue);
 }
