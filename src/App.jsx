@@ -1,16 +1,15 @@
-import { Outlet, Link } from "react-router-dom";
-
-const Header = () => {
-  return <div>Este es mi Header</div>;
-};
+import { useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
-      <header>
-        <Link to="/"></Link>
-        <Link to="/projects"></Link>
-      </header>
       <Outlet />
       <footer className="read-the-docs"></footer>
     </>

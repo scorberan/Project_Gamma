@@ -1,12 +1,14 @@
-import "./projects.scss";
+import './projects.scss';
 //import GradientTitle from "../../components/titles/GradientTitle";
-import Topbar from "../../components/topbar/Topbar";
-import Footer from "../footer/Footer";
-import ImgReseluta from "../../assets/images/iphone-mockup.png";
-import CoverImgAboutMe from "../../assets/images/CoverImgAboutMe.png";
-import ImgGraphic from "../../assets/images/Illustrations.png";
-import LightUpCover from "../../assets/images/Lightup/LightUpCover.png.png";
-import ProjectBeta from "../project-beta/ProjectBeta";
+import Topbar from '../../components/topbar/Topbar';
+import Footer from '../footer/Footer';
+import ImgReseluta from '../../assets/images/iphone-mockup.png';
+import CoverImgAboutMe from '../../assets/images/CoverImgAboutMe.png';
+import ImgGraphic from '../../assets/images/Illustrations.png';
+import LightUpCover from '../../assets/images/Lightup/LightUpCover.png.png';
+import PORTFOLIO from '../../assets/portfolio.pdf';
+import ResolutaProject from './ResolutaProject';
+
 function Projects() {
   return (
     <>
@@ -29,13 +31,12 @@ function Projects() {
                 <h1 className="card-title">About me </h1>
                 <p className="card-subtitle">Project Alpha</p>
                 <p className="card-info">
-                  The light is shining, and this time is on me. Come get a
-                  glimpse into my world and get to know me.
+                  The light is shining, and this time is on me. Come get a glimpse into my world and get to know me.
                 </p>
                 <div className="card-btn-container">
                   <li>
                     <a href="/aboutme" className="card-btn">
-                      {" "}
+                      {' '}
                       See more
                     </a>
                   </li>
@@ -43,32 +44,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="project-card">
-            <div className="card">
-              <img
-                src={ImgReseluta}
-                className="card-img"
-                alt="colorfull picture of phone screens, shoeing how Reseluta (the website) will look like"
-              />
-              <div className="card-body">
-                <h1 className="card-title">Resoluta</h1>
-                <p className="card-subtitle">Project Beta</p>
-                <p className="card-info">
-                  Unlock your Business's full potential with Resoluta's expert
-                  Problem-Solving solutions and unwavering dedication to your
-                  success.
-                </p>
-                <div className="card-btn-container">
-                  <li>
-                    <a href="/resoluta" className="card-btn">
-                      {" "}
-                      See more
-                    </a>
-                  </li>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ResolutaProject />
           <div className="project-card">
             <div className="card">
               <img
@@ -80,15 +56,11 @@ function Projects() {
                 <h1 className="card-title">Graphic & Illustractions design</h1>
                 <p className="card-subtitle">BA portfolio</p>
                 <p className="card-info">
-                  Take a journey through the past, where you be able to see all
-                  of my best work during my bachelors degree.
+                  Take a journey through the past, where you be able to see all of my best work during my bachelors
+                  degree.
                 </p>
                 <div className="card-btn-container">
-                  <a
-                    href="Design_Portfolio_Sarah Corberan.pdf"
-                    target="_blank"
-                    className="card-btn"
-                  >
+                  <a href={PORTFOLIO} target="_blank" className="card-btn">
                     See more
                   </a>
                 </div>
@@ -106,9 +78,8 @@ function Projects() {
                 <h1 className="card-title">LightUp</h1>
                 <p className="card-subtitle">ongoing project</p>
                 <p className="card-info">
-                  Fasten your seatbelts, we are on for a ride. Ready to
-                  experience the most captivating feature out in the market for
-                  your car?
+                  Fasten your seatbelts, we are on for a ride. Ready to experience the most captivating feature out in
+                  the market for your car?
                 </p>
                 <div className="card-btn-container">
                   <a className="card-btn">On hold</a>
