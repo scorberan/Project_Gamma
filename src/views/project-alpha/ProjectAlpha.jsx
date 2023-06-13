@@ -249,7 +249,7 @@ function ProjectAlpha() {
             <div className="alpha-container">
               <div className="info-title">
                 <div className="alpha-title-container">
-                  <h1 className="number-title-blue">04</h1>
+                  <h1 className="number-title-blue">03</h1>
                   <h2 className="alpha-title">Lessons learned</h2>
                 </div>
                 <div className="conclusion-content">
