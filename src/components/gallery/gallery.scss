@@ -2,6 +2,7 @@
   width: 1170px;
   height: 557px;
   overflow: hidden;
+  padding-top: 80px !important;
 }
 .swiper-wraper {
   overflow: hidden;
@@ -47,6 +48,15 @@
 
 .swiper-pagination-bullet {
   width: var(--swiper-pagination-bullet-width);
-
   height: var(--swiper-pagination-bullet-height);
+}
+
+.swiper-pagination-bullets {
+  top: 10px !important;
+  position: absolute !important;
+  height: 30px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  left: auto !important;
+  right: -8px;
 }
