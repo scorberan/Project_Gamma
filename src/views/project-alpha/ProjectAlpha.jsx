@@ -228,7 +228,7 @@ function ProjectAlpha() {
                         >
                           here
                         </a>{" "}
-                        to see futher details.
+                        to see further details.
                       </h4>
                     </div>
                     <div className="alpha-info-container">
