@@ -1,17 +1,14 @@
-import './gallery.scss';
-import React, { useRef, useState } from 'react';
-import ImgReseluta from '../../assets/images/iphone-mockup.png';
-import CoverImgAboutMe from '../../assets/images/CoverImgAboutMe.png';
-import ImgGraphic from '../../assets/images/Illustrations.png';
-import LightUpCover from '../../assets/images/Lightup/LightUpCover.png.png';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
-import ResolutaProject from '../../views/projects/ResolutaProject';
-
-import { FreeMode, Pagination } from 'swiper';
-
+import "./gallery.scss";
+import React, { useRef, useState } from "react";
+import LightUpProject from "../../views/projects/LightUpProject";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import ResolutaProject from "../../views/projects/ResolutaProject";
+import AboutMeProject from "../../views/projects/AboutmeProject";
+import { FreeMode, Pagination } from "swiper";
+import GraphicPortfolio from "../../views/projects/GraphicPortfolio";
 export default function App() {
   return (
     <>
@@ -20,23 +17,23 @@ export default function App() {
         spaceBetween={95}
         freeMode={true}
         pagination={{
-          clickable: true
+          clickable: true,
         }}
         modules={[FreeMode, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
-          {' '}
-          <img src={CoverImgAboutMe} className="card-img" alt="mockups of the about me website in different devices" />
-        </SwiperSlide>
-        <SwiperSlide>
           <ResolutaProject sliderMode />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ImgGraphic} alt="collage of Sarah's Illustrations with a lilac background" />
+          <GraphicPortfolio sliderMode></GraphicPortfolio>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={LightUpCover} className="card-img" alt="skech of car with bold lettering and yellow background" />
+          <LightUpProject sliderMode></LightUpProject>
+        </SwiperSlide>
+        <SwiperSlide>
+          <AboutMeProject sliderMode></AboutMeProject>
+          <LightUpProject sliderMode></LightUpProject>
         </SwiperSlide>
       </Swiper>
     </>

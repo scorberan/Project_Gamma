@@ -13,7 +13,12 @@
 }
 
 .gradient-title-projects {
-  background: linear-gradient(90deg, #893bff 2.68%, #a8e4a0 6.5%, #8cc5ff 10.69%);
+  background: linear-gradient(
+    90deg,
+    #893bff 2.68%,
+    #a8e4a0 6.5%,
+    #8cc5ff 10.69%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -125,5 +130,46 @@
   .card {
     height: 100%;
     width: 100%;
+  }
+
+  .card-body-landing {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #21212158;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 1s;
+  }
+  .card:hover .card-body-landing {
+    right: 0;
+  }
+
+  .card-info-landing {
+    font-size: 16px;
+    width: 336px;
+    padding-left: 24px;
+    line-height: 25px;
+  }
+
+  .card-btn-landing {
+    color: black;
+    background-color: white;
+    padding: 10px 130px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
   }
 }

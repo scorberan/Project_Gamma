@@ -1,4 +1,4 @@
-import GradientTitle from "../../components/titles/GradientTitle";
+//import GradientTitle from "../../components/titles/GradientTitle";
 import "./portfolio.scss";
 //import ButtonMedium from "../../components/buttons/ButtonMedium";
 import ProjectButtom from "../../components/buttons/ProjectMediumButtom";
@@ -9,7 +9,7 @@ function Portfolio() {
       <section id="portfolio" className="gape-container">
         <div className="section-portfolio">
           <div className="titles-content">
-            <GradientTitle>My case studies</GradientTitle>
+            <h2 className="gradient-title-portfolio">My case studies</h2>
             <h3 className="title">Portfolio</h3>
           </div>
           <div className="swiper-content">
